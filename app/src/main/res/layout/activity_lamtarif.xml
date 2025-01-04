@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_back"
+            android:tint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Hukum Lam Ta'rif"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="Pengertian"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="16sp"
+                android:text="Lam Ta'rif adalah Alif dan Lam (ال) yang terdapat di awal kata benda (isim). Terdapat dua hukum bacaan untuk Lam Ta'rif: Qamariyah dan Syamsiyah."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="1. Lam Qamariyah"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="Huruf Qamariyah: ا ب ج ح خ ع غ ف ق ك م و ه ي\nDibaca jelas"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"
+                android:text="Contoh:\nاَلْقَمَرُ dibaca Al-Qomaru\nاَلْكِتَابُ dibaca Al-Kitaabu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="2. Lam Syamsiyah"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="Huruf Syamsiyah: ت ث د ذ ر ز س ش ص ض ط ظ ل ن\nLam tidak dibaca (dilebur)"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Contoh:\nاَلشَّمْسُ dibaca Asy-Syamsu\nاَلنُّوْرُ dibaca An-Nuuru"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

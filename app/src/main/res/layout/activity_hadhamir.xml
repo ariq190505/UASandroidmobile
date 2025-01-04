@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_back"
+            android:tint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Hukum Ha Dhamir"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="Pengertian"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="16sp"
+                android:text="Ha Dhamir adalah ha (ه) yang menunjukkan kata ganti orang ketiga tunggal (dia laki-laki). Dalam membacanya terdapat dua hukum yaitu dibaca panjang (2 harakat) dan dibaca pendek."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="1. Dibaca Panjang"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="Ha Dhamir dibaca panjang (2 harakat) apabila:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="a. Terletak di antara dua huruf hidup"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"
+                android:text="Contoh:\nلَهُ الْمُلْكُ dibaca lahul mulku\nعِنْدَهُ اَجْرٌ dibaca 'indahu ajrun"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="2. Dibaca Pendek"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="Ha Dhamir dibaca pendek apabila:"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="a. Terletak setelah huruf mati/sukun"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="Contoh:\nعَنْهُ dibaca 'anhu\nمِنْهُ dibaca minhu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp"
+                android:text="b. Terletak setelah huruf bertasydid"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"
+                android:text="Contoh:\nاِنَّهُ dibaca innahu\nرَبَّهُ dibaca robbahu"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

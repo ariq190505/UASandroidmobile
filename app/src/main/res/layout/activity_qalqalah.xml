@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_back"
+            android:tint="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Hukum Qalqalah"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="Pengertian"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:textSize="16sp"
+                android:text="Qalqalah adalah memantulkan bunyi huruf ketika mati (sukun) atau waqaf. Huruf Qalqalah ada 5 yang terkumpul dalam kalimat قُطْبُ جَدٍ (Qutbu Jadin)."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="Huruf Qalqalah"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp"
+                android:text="ق ط ب ج د"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:text="Pembagian Qalqalah"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:text="1. Qalqalah Sughra"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:text="Apabila huruf qalqalah mati di tengah kata.\nContoh:\nيَجْعَلُ dibaca yaj-'alu\nيَقْطَعُ dibaca yaq-tha'u"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:text="2. Qalqalah Kubra"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"
+                android:text="Apabila huruf qalqalah berada di akhir kata atau waqaf.\nContoh:\nاَحَدْ dibaca ahad(q)\nالْفَلَقْ dibaca al-falaq(q)"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
