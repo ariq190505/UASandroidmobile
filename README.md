@@ -23,4 +23,4 @@ Aplikasi Tajwid adalah sebuah perangkat lunak atau platform digital yang diranca
 ## Mockup
 ![alt text](Gambar/mockup.png)
 ## UI & UX
-![alt text](UI&UX.png)
+![alt text](Gambar/UI&UX.png)
